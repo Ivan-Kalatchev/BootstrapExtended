@@ -1,0 +1,70 @@
+@import './theme.scss';
+
+@each $name, $color in $colors {
+    .be-ch-countainer-#{$name} {
+        position: relative;
+        padding-left: 25px;
+        padding-top: 1px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .be-ch-countainer-#{$name} input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    .checkmark-#{$name} {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        background-color: #eee;
+        border-radius: .2rem;
+        outline: 0;
+        // &:focus {
+        //     -webkit-box-shadow: 0 0 0 0.2rem rgba($color, 0.25);
+        //         box-shadow: 0 0 0 0.2rem rgba($color, 0.25);
+        // }
+    }
+
+    .be-ch-countainer-#{$name}:hover input ~ .checkmark-#{$name} {
+        background-color: #ccc;
+    }
+
+    .be-ch-countainer-#{$name} input:checked ~ .checkmark-#{$name} {
+        background-color: $color;
+    }
+
+    .checkmark-#{$name}:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    .be-ch-countainer-#{$name} input:checked ~ .checkmark-#{$name}:after {
+        display: block;
+    }
+
+    .be-ch-countainer-#{$name} .checkmark-#{$name}:after {
+        left: 7px;
+        top: 4px;
+        width: 3px;
+        height: 7px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    // -------------------------------
+}
+
