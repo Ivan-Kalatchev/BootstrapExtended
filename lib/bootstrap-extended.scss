@@ -71,6 +71,7 @@
 
 .be-select {
     position: relative;
+    display: inline-block;
 }
 
 .be-select select {
@@ -102,6 +103,7 @@
     border-radius: .3rem .2rem 0 0;
     border-width: .15rem;
     border-color: rgb($primary, .3);
+    padding: 7px 15px;
 }
 
 .select-selected.select-arrow-active:after {

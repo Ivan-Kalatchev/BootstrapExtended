@@ -360,6 +360,7 @@
 
 .be-select {
   position: relative;
+  display: inline-block;
 }
 
 .be-select select {
@@ -391,6 +392,7 @@
   border-radius: 0.3rem 0.2rem 0 0;
   border-width: 0.15rem;
   border-color: rgba(0, 123, 255, 0.3);
+  padding: 7px 15px;
 }
 
 .select-selected.select-arrow-active:after {
