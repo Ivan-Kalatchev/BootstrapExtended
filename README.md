@@ -10,7 +10,11 @@ It's an extension! **BootstrapExtended** is a library that contains certain HTML
 
   ✔️ Select - Ready
 
+  ![Combobox-expanded](./Images/ComboBox-Expanded.png?raw=true)
+  
   🧪 Checkboxes - Testing
+  
+  ![Checkboxes](./Images/Checkboxes-NotChecked.png?raw=true)
 
   ❌ Radio buttons - To be started
   
