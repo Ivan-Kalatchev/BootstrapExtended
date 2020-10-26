@@ -12,19 +12,19 @@ It's an extension! **BootstrapExtended** is a library that contains certain HTML
 
   ✔️ Select - Ready
 
-  ![Combobox-expanded](./images/Select-Expanded.png?raw=true)
+  ![Combobox-expanded](./screenshots/Select-Expanded.png?raw=true)
   
   ✔️ Checkboxes - Testing
   
-  ![Checkboxes](./images/Checkboxes-NotChecked.png?raw=true)
+  ![Checkboxes](./screenshots/Checkboxes-NotChecked.png?raw=true)
 
   ✔️ Radio buttons - To be started
 
-  ![Radio](./images/Radio.png?raw=true)
+  ![Radio](./screenshots/Radio.png?raw=true)
 
-  ![Radio2](./images/Radio-NoText.png?raw=true)
+  ![Radio2](./screenshots/Radio-NoText.png?raw=true)
 
-  ![Radio3](./images/Radio-Block.png?raw=true)
+  ![Radio3](./screenshots/Radio-Block.png?raw=true)
   
 ## Development
 
