@@ -358,6 +358,336 @@
   transform: rotate(45deg);
 }
 
+.be-ra-container-primary {
+  display: inline-block;
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.be-ra-container-primary input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.be-ra-checkmark-primary {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.be-ra-container-primary:hover input ~ .be-ra-checkmark-primary {
+  background-color: #ccc;
+}
+
+.be-ra-container-primary input:checked ~ .be-ra-checkmark-primary {
+  background-color: #007bff;
+}
+
+.be-ra-checkmark-primary:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.be-ra-container-primary input:checked ~ .be-ra-checkmark-primary:after {
+  display: block;
+}
+
+.be-ra-container-primary .be-ra-checkmark-primary:after {
+  top: 7px;
+  left: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+}
+
+.be-ra-container-danger {
+  display: inline-block;
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.be-ra-container-danger input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.be-ra-checkmark-danger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.be-ra-container-danger:hover input ~ .be-ra-checkmark-danger {
+  background-color: #ccc;
+}
+
+.be-ra-container-danger input:checked ~ .be-ra-checkmark-danger {
+  background-color: #dc3545;
+}
+
+.be-ra-checkmark-danger:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.be-ra-container-danger input:checked ~ .be-ra-checkmark-danger:after {
+  display: block;
+}
+
+.be-ra-container-danger .be-ra-checkmark-danger:after {
+  top: 7px;
+  left: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+}
+
+.be-ra-container-warning {
+  display: inline-block;
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.be-ra-container-warning input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.be-ra-checkmark-warning {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.be-ra-container-warning:hover input ~ .be-ra-checkmark-warning {
+  background-color: #ccc;
+}
+
+.be-ra-container-warning input:checked ~ .be-ra-checkmark-warning {
+  background-color: #ffc107;
+}
+
+.be-ra-checkmark-warning:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.be-ra-container-warning input:checked ~ .be-ra-checkmark-warning:after {
+  display: block;
+}
+
+.be-ra-container-warning .be-ra-checkmark-warning:after {
+  top: 7px;
+  left: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+}
+
+.be-ra-container-info {
+  display: inline-block;
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.be-ra-container-info input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.be-ra-checkmark-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.be-ra-container-info:hover input ~ .be-ra-checkmark-info {
+  background-color: #ccc;
+}
+
+.be-ra-container-info input:checked ~ .be-ra-checkmark-info {
+  background-color: #17a2b8;
+}
+
+.be-ra-checkmark-info:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.be-ra-container-info input:checked ~ .be-ra-checkmark-info:after {
+  display: block;
+}
+
+.be-ra-container-info .be-ra-checkmark-info:after {
+  top: 7px;
+  left: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+}
+
+.be-ra-container-success {
+  display: inline-block;
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.be-ra-container-success input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.be-ra-checkmark-success {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.be-ra-container-success:hover input ~ .be-ra-checkmark-success {
+  background-color: #ccc;
+}
+
+.be-ra-container-success input:checked ~ .be-ra-checkmark-success {
+  background-color: #28a745;
+}
+
+.be-ra-checkmark-success:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.be-ra-container-success input:checked ~ .be-ra-checkmark-success:after {
+  display: block;
+}
+
+.be-ra-container-success .be-ra-checkmark-success:after {
+  top: 7px;
+  left: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+}
+
+.be-ra-container-secondary {
+  display: inline-block;
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.be-ra-container-secondary input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.be-ra-checkmark-secondary {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.be-ra-container-secondary:hover input ~ .be-ra-checkmark-secondary {
+  background-color: #ccc;
+}
+
+.be-ra-container-secondary input:checked ~ .be-ra-checkmark-secondary {
+  background-color: #6c757d;
+}
+
+.be-ra-checkmark-secondary:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.be-ra-container-secondary input:checked ~ .be-ra-checkmark-secondary:after {
+  display: block;
+}
+
+.be-ra-container-secondary .be-ra-checkmark-secondary:after {
+  top: 7px;
+  left: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+}
+
 .be-select {
   position: relative;
   display: inline-block;
@@ -427,6 +757,10 @@
 
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+.blockDis {
+  display: block;
 }
 
 /*# sourceMappingURL=bootstrap-extended.css.map */

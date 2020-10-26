@@ -1,5 +1,6 @@
 @import './theme.scss';
 
+//-----------------Checkboxes----------------------
 @each $name, $color in $colors {
     .be-ch-countainer-#{$name} {
         position: relative;
@@ -64,8 +65,65 @@
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
     }
+}
 
-    // -------------------------------
+//-----------------Radio buttons----------------------
+
+@each $name, $color in $colors {
+    .be-ra-container-#{$name} {
+        display: inline-block;
+        position: relative;
+        padding-left: 23px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .be-ra-container-#{$name} input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .be-ra-checkmark-#{$name} {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        background-color: #eee;
+        border-radius: 50%;
+    }
+
+    .be-ra-container-#{$name}:hover input ~ .be-ra-checkmark-#{$name} {
+        background-color: #ccc;
+    }
+
+    .be-ra-container-#{$name} input:checked ~ .be-ra-checkmark-#{$name} {
+        background-color: $color;
+    }
+
+    .be-ra-checkmark-#{$name}:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    .be-ra-container-#{$name} input:checked ~ .be-ra-checkmark-#{$name}:after {
+        display: block;
+    }
+
+    .be-ra-container-#{$name} .be-ra-checkmark-#{$name}:after {
+            top: 7px;
+            left: 7px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: white;
+    }
 }
 
 
@@ -140,5 +198,11 @@
 
 .select-items div:hover, .same-as-selected {
     background-color: rgba(0, 0, 0, 0.05);
+}
+
+//block
+
+.blockDis{
+    display: block;
 }
 

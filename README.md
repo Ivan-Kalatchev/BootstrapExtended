@@ -2,21 +2,29 @@
 
 Feel tiered of missing components in Bootstrap? This is the right place!
 
+### Release 1.0 BETA is here!
+
 ## Description
 
-It's an extension! **BootstrapExtended** is a library that contains certain HTML elements, styled in the bootstrap theme, that are currently not supported in the full Bootstrap library, like **check-boxes**, **radio buttons**, **selects** and more. It's currently in **development**, but soon it will be ready for real projects. It's development purpose is to help developers work with Bootstrap with **as little** dependencies as possible.
+It's an extension! **BootstrapExtended** is a library that contains certain HTML elements, styled in the bootstrap theme, that are currently not supported in the full Bootstrap library, like **check-boxes**, **radio buttons**, **selects** and more. It's development purpose is to help developers work with Bootstrap with **as little** dependencies as possible.
 
 ## Quick overview (for full project progress description go into the the projects tab)
 
   ✔️ Select - Ready
 
-  ![Combobox-expanded](./Images/ComboBox-Expanded.png?raw=true)
+  ![Combobox-expanded](./images/ComboBox-Expanded.png?raw=true)
   
-  🧪 Checkboxes - Testing
+  ✔️ Checkboxes - Testing
   
-  ![Checkboxes](./Images/Checkboxes-NotChecked.png?raw=true)
+  ![Checkboxes](./images/Checkboxes-NotChecked.png?raw=true)
 
-  ❌ Radio buttons - To be started
+  ✔️ Radio buttons - To be started
+
+  ![Radio](./images/Radio.png?raw=true)
+
+  ![Radio2](./images/Radio-NoText.png?raw=true)
+
+  ![Radio3](./images/Radio-Block.png?raw=true)
   
 ## Development
 
