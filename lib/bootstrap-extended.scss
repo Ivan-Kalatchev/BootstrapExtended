@@ -1,128 +1,124 @@
 @import './theme.scss';
 
 //-----------------Checkboxes----------------------
+.be-ch-countainer {
+    position: relative;
+    padding-left: 25px;
+    padding-top: 1px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    ::after, ::before{
+      box-sizing: unset !important;
+    }
+    line-height: normal !important;
+
+}
+
+.be-ch-countainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.be-ch-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: .2rem;
+    outline: 0;
+    
+}
+
+.be-ch-countainer:hover input ~ .be-ch-checkmark {
+    background-color: #ccc;
+}
+.be-ch-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.be-ch-countainer input:checked ~ .be-ch-checkmark:after {
+    display: block;
+}
+
+.be-ch-countainer .be-ch-checkmark:after {
+    left: 7px;
+    top: 4px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
 @each $name, $color in $colors {
-    .be-ch-countainer-#{$name} {
-        position: relative;
-        padding-left: 25px;
-        padding-top: 1px;
-        cursor: pointer;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-
-    .be-ch-countainer-#{$name} input {
-        position: absolute;
-        opacity: 0;
-        cursor: pointer;
-        height: 0;
-        width: 0;
-    }
-
-    .checkmark {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 20px;
-        width: 20px;
-        background-color: #eee;
-        border-radius: .2rem;
-        outline: 0;
-        // &:focus {
-        //     -webkit-box-shadow: 0 0 0 0.2rem rgba($color, 0.25);
-        //         box-shadow: 0 0 0 0.2rem rgba($color, 0.25);
-        // }
-    }
-
-    .be-ch-countainer-#{$name}:hover input ~ .checkmark {
-        background-color: #ccc;
-    }
-
-    .be-ch-countainer-#{$name} input:checked ~ .checkmark {
+    .be-ch-countainer input:checked ~ .be-ch-checkmark-#{$name} {
         background-color: $color;
-    }
-
-    .checkmark:after {
-        content: "";
-        position: absolute;
-        display: none;
-    }
-
-    .be-ch-countainer-#{$name} input:checked ~ .checkmark:after {
-        display: block;
-    }
-
-    .be-ch-countainer-#{$name} .checkmark:after {
-        left: 7px;
-        top: 4px;
-        width: 3px;
-        height: 7px;
-        border: solid white;
-        border-width: 0 3px 3px 0;
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-    }
+    } 
 }
 
 //-----------------Radio buttons----------------------
+.be-ra-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 23px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
-@each $name, $color in $colors {
-    .be-ra-container-#{$name} {
-        display: inline-block;
-        position: relative;
-        padding-left: 23px;
-        margin-bottom: 12px;
-        cursor: pointer;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
+.be-ra-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
 
-    .be-ra-container-#{$name} input {
-        position: absolute;
-        opacity: 0;
-        cursor: pointer;
-    }
+.be-ra-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.be-ra-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
 
-    .be-ra-checkmark {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 20px;
-        width: 20px;
-        background-color: #eee;
+.be-ra-container input:checked ~ .be-ra-checkmark:after {
+    display: block;
+}
+
+.be-ra-container .be-ra-checkmark:after {
+        top: 7px;
+        left: 7px;
+        width: 6px;
+        height: 6px;
         border-radius: 50%;
-    }
-
-    .be-ra-container-#{$name}:hover input ~ .be-ra-checkmark {
-        background-color: #ccc;
-    }
-
-    .be-ra-container-#{$name} input:checked ~ .be-ra-checkmark {
+        background: white;
+}
+.be-ra-container:hover input ~ .be-ra-checkmark {
+    background-color: #ccc;
+}
+@each $name, $color in $colors {
+    .be-ra-container input:checked ~ .be-ra-checkmark-#{$name} {
         background-color: $color;
-    }
-
-    .be-ra-checkmark:after {
-        content: "";
-        position: absolute;
-        display: none;
-    }
-
-    .be-ra-container-#{$name} input:checked ~ .be-ra-checkmark:after {
-        display: block;
-    }
-
-    .be-ra-container-#{$name} .be-ra-checkmark:after {
-            top: 7px;
-            left: 7px;
-            width: 6px;
-            height: 6px;
-            border-radius: 50%;
-            background: white;
     }
 }
 
@@ -132,6 +128,7 @@
 .be-select {
     position: relative;
     display: inline-block;
+    line-height: normal !important;
 }
 
 .be-select select {
@@ -139,7 +136,7 @@
 }
 
 .select-selected {
-    background-color: transparent;
+    background-color: white;
     border-radius: .2rem;
     border: .5px solid rgb($combo-border, .1);
     &:hover{
@@ -180,7 +177,7 @@
 
 .select-items {
     position: absolute;
-    background-color: transparent;
+    background-color: white;
     top: 100%;
     left: 0;
     right: 0;
@@ -224,6 +221,7 @@
 
     + label {
       position: relative;
+      top:2;
       min-width: calc(#{$switch-height} * 2);
       border-radius: $switch-border-radius;
       height: $switch-height;
@@ -287,6 +285,7 @@
     }
   }
 
+  // Small variation
   &.switch-sm {
     font-size: $font-size-sm;
 
@@ -313,6 +312,7 @@
     }
   }
 
+  // Large variation
   &.switch-lg {
     font-size: $font-size-lg;
 
@@ -372,4 +372,190 @@
       color: $color;
     }
   }
+}
+
+//drawer
+.modal{
+
+  &.drawer{
+
+    padding-left: 0 !important;
+
+    display: flex !important;
+
+    pointer-events: none;
+    * {
+      pointer-events: none;
+    }
+
+    .modal-dialog{
+      margin: 0px;
+      display: flex;
+      flex: auto;
+      transform: translate(25%, 0);
+      .modal-content{
+        border:none;
+        border-radius: 0px;
+        .modal-body{
+          overflow: auto;
+        }
+      }
+
+    }
+
+    &.show{
+      pointer-events: auto;
+      * {
+        pointer-events: auto;
+      }
+      .modal-dialog{
+        transform: translate(0, 0);
+      }
+    }
+
+    &.right-align{
+      flex-direction: row-reverse;
+    }
+    &.left-align{
+      &:not(.show){
+        .modal-dialog{
+          transform: translate(-25%, 0);
+        }
+      }
+    }
+
+  }
+
+
+}
+
+//sidebar
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ body {
+    overflow-x: hidden;
+ }
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: $navbar-bg;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: $navbar-fore;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: $navbar-hover-fore;
+    background: rgba($navbar-hover,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: $navbar-fore;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: $navbar-hover-fore;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
 }

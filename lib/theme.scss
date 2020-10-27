@@ -22,11 +22,17 @@ $light: #f8f9fa;
 $combo-border: #000000;
 $dark: #343a40;
 
+$navbar-bg: #fafafa;
+$navbar-fore: #000000;
+
+$navbar-hover: #b1b1b1;
+$navbar-hover-fore: #000000;
+
 //Switch
-$font-size-base: .8rem;
+$font-size-base: 1rem;
 $font-size-lg: ($font-size-base * 1.25);
 $font-size-sm: ($font-size-base * .875);
-$input-height: 2.375rem;
+$input-height: 2rem;
 $input-height-sm: 1.9375rem;
 $input-height-lg: 3rem;
 $input-btn-focus-width: .2rem;
@@ -42,10 +48,9 @@ $theme-colors: (
   "success": $success,
   "secondary": $secondary
 );
-
-$switch-height: calc(#{$input-height} * .6) !default;
-$switch-height-sm: calc(#{$input-height-sm} * .6) !default;
-$switch-height-lg: calc(#{$input-height-lg} * .6) !default;
+$switch-height: calc(#{$input-height} * .8) !default;
+$switch-height-sm: calc(#{$input-height-sm} * .8) !default;
+$switch-height-lg: calc(#{$input-height-lg} * .8) !default;
 $switch-border-radius: $switch-height !default;
 $switch-bg: $custom-control-indicator-bg !default;
 $switch-checked-bg: map-get($theme-colors, 'primary') !default;

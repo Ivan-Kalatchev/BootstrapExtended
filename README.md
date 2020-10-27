@@ -35,6 +35,16 @@ It's an extension! **BootstrapExtended** is a library that contains certain HTML
   ✔️ Callouts - Ready
 
   ![Radio](./screenshots/Callouts.png?raw=true)
+
+  ✔️ SideBar - Ready
+
+  ![Radio](./screenshots/Sidebar-Expanded.png?raw=true)
+  ![Radio](./screenshots/Sidebar-Collapsed.png?raw=true)
+
+  ✔️ Drawer - Ready
+
+  ![Radio](./screenshots/Drawer-Right.png?raw=true)
+  ![Radio](./screenshots/Drawer-Left.png?raw=true)
   
 ## Development
 
