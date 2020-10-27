@@ -28,23 +28,25 @@ It's an extension! **BootstrapExtended** is a library that contains certain HTML
 
   ✔️ Switch - Ready
 
-  ![Radio](./screenshots/Switch-On.png?raw=true)
+  ![Switch-On](./screenshots/Switch-On.png?raw=true)
 
-  ![Radio2](./screenshots/Switch-Off.png?raw=true)
+  ![Switch-Off](./screenshots/Switch-Off.png?raw=true)
 
   ✔️ Callouts - Ready
 
-  ![Radio](./screenshots/Callouts.png?raw=true)
+  ![Callouts](./screenshots/Callouts.png?raw=true)
 
   ✔️ SideBar - Ready
 
-  ![Radio](./screenshots/Sidebar-Expanded.png?raw=true)
-  ![Radio](./screenshots/Sidebar-Collapsed.png?raw=true)
+  ![SideBar-Expanded](./screenshots/Sidebar-Expanded.png?raw=true)
+
+  
+  ![SideBar-Collapsed](./screenshots/Sidebar-Collapsed.png?raw=true)
 
   ✔️ Drawer - Ready
 
-  ![Radio](./screenshots/Drawer-Right.png?raw=true)
-  ![Radio](./screenshots/Drawer-Left.png?raw=true)
+  ![Drawer-Right](./screenshots/Drawer-Right.png?raw=true)
+  ![Drawer-Left](./screenshots/Drawer-Left.png?raw=true)
   
 ## Development
 
