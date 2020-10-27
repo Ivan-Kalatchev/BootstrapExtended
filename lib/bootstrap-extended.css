@@ -17,7 +17,7 @@
   width: 0;
 }
 
-.checkmark-primary {
+.checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -28,25 +28,25 @@
   outline: 0;
 }
 
-.be-ch-countainer-primary:hover input ~ .checkmark-primary {
+.be-ch-countainer-primary:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
-.be-ch-countainer-primary input:checked ~ .checkmark-primary {
+.be-ch-countainer-primary input:checked ~ .checkmark {
   background-color: #007bff;
 }
 
-.checkmark-primary:after {
+.checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.be-ch-countainer-primary input:checked ~ .checkmark-primary:after {
+.be-ch-countainer-primary input:checked ~ .checkmark:after {
   display: block;
 }
 
-.be-ch-countainer-primary .checkmark-primary:after {
+.be-ch-countainer-primary .checkmark:after {
   left: 7px;
   top: 4px;
   width: 3px;
@@ -77,7 +77,7 @@
   width: 0;
 }
 
-.checkmark-danger {
+.checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -88,25 +88,25 @@
   outline: 0;
 }
 
-.be-ch-countainer-danger:hover input ~ .checkmark-danger {
+.be-ch-countainer-danger:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
-.be-ch-countainer-danger input:checked ~ .checkmark-danger {
+.be-ch-countainer-danger input:checked ~ .checkmark {
   background-color: #dc3545;
 }
 
-.checkmark-danger:after {
+.checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.be-ch-countainer-danger input:checked ~ .checkmark-danger:after {
+.be-ch-countainer-danger input:checked ~ .checkmark:after {
   display: block;
 }
 
-.be-ch-countainer-danger .checkmark-danger:after {
+.be-ch-countainer-danger .checkmark:after {
   left: 7px;
   top: 4px;
   width: 3px;
@@ -137,7 +137,7 @@
   width: 0;
 }
 
-.checkmark-warning {
+.checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -148,25 +148,25 @@
   outline: 0;
 }
 
-.be-ch-countainer-warning:hover input ~ .checkmark-warning {
+.be-ch-countainer-warning:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
-.be-ch-countainer-warning input:checked ~ .checkmark-warning {
+.be-ch-countainer-warning input:checked ~ .checkmark {
   background-color: #ffc107;
 }
 
-.checkmark-warning:after {
+.checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.be-ch-countainer-warning input:checked ~ .checkmark-warning:after {
+.be-ch-countainer-warning input:checked ~ .checkmark:after {
   display: block;
 }
 
-.be-ch-countainer-warning .checkmark-warning:after {
+.be-ch-countainer-warning .checkmark:after {
   left: 7px;
   top: 4px;
   width: 3px;
@@ -197,7 +197,7 @@
   width: 0;
 }
 
-.checkmark-info {
+.checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -208,25 +208,25 @@
   outline: 0;
 }
 
-.be-ch-countainer-info:hover input ~ .checkmark-info {
+.be-ch-countainer-info:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
-.be-ch-countainer-info input:checked ~ .checkmark-info {
+.be-ch-countainer-info input:checked ~ .checkmark {
   background-color: #17a2b8;
 }
 
-.checkmark-info:after {
+.checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.be-ch-countainer-info input:checked ~ .checkmark-info:after {
+.be-ch-countainer-info input:checked ~ .checkmark:after {
   display: block;
 }
 
-.be-ch-countainer-info .checkmark-info:after {
+.be-ch-countainer-info .checkmark:after {
   left: 7px;
   top: 4px;
   width: 3px;
@@ -257,7 +257,7 @@
   width: 0;
 }
 
-.checkmark-success {
+.checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -268,25 +268,25 @@
   outline: 0;
 }
 
-.be-ch-countainer-success:hover input ~ .checkmark-success {
+.be-ch-countainer-success:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
-.be-ch-countainer-success input:checked ~ .checkmark-success {
+.be-ch-countainer-success input:checked ~ .checkmark {
   background-color: #28a745;
 }
 
-.checkmark-success:after {
+.checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.be-ch-countainer-success input:checked ~ .checkmark-success:after {
+.be-ch-countainer-success input:checked ~ .checkmark:after {
   display: block;
 }
 
-.be-ch-countainer-success .checkmark-success:after {
+.be-ch-countainer-success .checkmark:after {
   left: 7px;
   top: 4px;
   width: 3px;
@@ -317,7 +317,7 @@
   width: 0;
 }
 
-.checkmark-secondary {
+.checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -328,25 +328,25 @@
   outline: 0;
 }
 
-.be-ch-countainer-secondary:hover input ~ .checkmark-secondary {
+.be-ch-countainer-secondary:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
-.be-ch-countainer-secondary input:checked ~ .checkmark-secondary {
+.be-ch-countainer-secondary input:checked ~ .checkmark {
   background-color: #6c757d;
 }
 
-.checkmark-secondary:after {
+.checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.be-ch-countainer-secondary input:checked ~ .checkmark-secondary:after {
+.be-ch-countainer-secondary input:checked ~ .checkmark:after {
   display: block;
 }
 
-.be-ch-countainer-secondary .checkmark-secondary:after {
+.be-ch-countainer-secondary .checkmark:after {
   left: 7px;
   top: 4px;
   width: 3px;
@@ -376,7 +376,7 @@
   cursor: pointer;
 }
 
-.be-ra-checkmark-primary {
+.be-ra-checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -386,25 +386,25 @@
   border-radius: 50%;
 }
 
-.be-ra-container-primary:hover input ~ .be-ra-checkmark-primary {
+.be-ra-container-primary:hover input ~ .be-ra-checkmark {
   background-color: #ccc;
 }
 
-.be-ra-container-primary input:checked ~ .be-ra-checkmark-primary {
+.be-ra-container-primary input:checked ~ .be-ra-checkmark {
   background-color: #007bff;
 }
 
-.be-ra-checkmark-primary:after {
+.be-ra-checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.be-ra-container-primary input:checked ~ .be-ra-checkmark-primary:after {
+.be-ra-container-primary input:checked ~ .be-ra-checkmark:after {
   display: block;
 }
 
-.be-ra-container-primary .be-ra-checkmark-primary:after {
+.be-ra-container-primary .be-ra-checkmark:after {
   top: 7px;
   left: 7px;
   width: 6px;
@@ -431,7 +431,7 @@
   cursor: pointer;
 }
 
-.be-ra-checkmark-danger {
+.be-ra-checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -441,25 +441,25 @@
   border-radius: 50%;
 }
 
-.be-ra-container-danger:hover input ~ .be-ra-checkmark-danger {
+.be-ra-container-danger:hover input ~ .be-ra-checkmark {
   background-color: #ccc;
 }
 
-.be-ra-container-danger input:checked ~ .be-ra-checkmark-danger {
+.be-ra-container-danger input:checked ~ .be-ra-checkmark {
   background-color: #dc3545;
 }
 
-.be-ra-checkmark-danger:after {
+.be-ra-checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.be-ra-container-danger input:checked ~ .be-ra-checkmark-danger:after {
+.be-ra-container-danger input:checked ~ .be-ra-checkmark:after {
   display: block;
 }
 
-.be-ra-container-danger .be-ra-checkmark-danger:after {
+.be-ra-container-danger .be-ra-checkmark:after {
   top: 7px;
   left: 7px;
   width: 6px;
@@ -486,7 +486,7 @@
   cursor: pointer;
 }
 
-.be-ra-checkmark-warning {
+.be-ra-checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -496,25 +496,25 @@
   border-radius: 50%;
 }
 
-.be-ra-container-warning:hover input ~ .be-ra-checkmark-warning {
+.be-ra-container-warning:hover input ~ .be-ra-checkmark {
   background-color: #ccc;
 }
 
-.be-ra-container-warning input:checked ~ .be-ra-checkmark-warning {
+.be-ra-container-warning input:checked ~ .be-ra-checkmark {
   background-color: #ffc107;
 }
 
-.be-ra-checkmark-warning:after {
+.be-ra-checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.be-ra-container-warning input:checked ~ .be-ra-checkmark-warning:after {
+.be-ra-container-warning input:checked ~ .be-ra-checkmark:after {
   display: block;
 }
 
-.be-ra-container-warning .be-ra-checkmark-warning:after {
+.be-ra-container-warning .be-ra-checkmark:after {
   top: 7px;
   left: 7px;
   width: 6px;
@@ -541,7 +541,7 @@
   cursor: pointer;
 }
 
-.be-ra-checkmark-info {
+.be-ra-checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -551,25 +551,25 @@
   border-radius: 50%;
 }
 
-.be-ra-container-info:hover input ~ .be-ra-checkmark-info {
+.be-ra-container-info:hover input ~ .be-ra-checkmark {
   background-color: #ccc;
 }
 
-.be-ra-container-info input:checked ~ .be-ra-checkmark-info {
+.be-ra-container-info input:checked ~ .be-ra-checkmark {
   background-color: #17a2b8;
 }
 
-.be-ra-checkmark-info:after {
+.be-ra-checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.be-ra-container-info input:checked ~ .be-ra-checkmark-info:after {
+.be-ra-container-info input:checked ~ .be-ra-checkmark:after {
   display: block;
 }
 
-.be-ra-container-info .be-ra-checkmark-info:after {
+.be-ra-container-info .be-ra-checkmark:after {
   top: 7px;
   left: 7px;
   width: 6px;
@@ -596,7 +596,7 @@
   cursor: pointer;
 }
 
-.be-ra-checkmark-success {
+.be-ra-checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -606,25 +606,25 @@
   border-radius: 50%;
 }
 
-.be-ra-container-success:hover input ~ .be-ra-checkmark-success {
+.be-ra-container-success:hover input ~ .be-ra-checkmark {
   background-color: #ccc;
 }
 
-.be-ra-container-success input:checked ~ .be-ra-checkmark-success {
+.be-ra-container-success input:checked ~ .be-ra-checkmark {
   background-color: #28a745;
 }
 
-.be-ra-checkmark-success:after {
+.be-ra-checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.be-ra-container-success input:checked ~ .be-ra-checkmark-success:after {
+.be-ra-container-success input:checked ~ .be-ra-checkmark:after {
   display: block;
 }
 
-.be-ra-container-success .be-ra-checkmark-success:after {
+.be-ra-container-success .be-ra-checkmark:after {
   top: 7px;
   left: 7px;
   width: 6px;
@@ -651,7 +651,7 @@
   cursor: pointer;
 }
 
-.be-ra-checkmark-secondary {
+.be-ra-checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -661,25 +661,25 @@
   border-radius: 50%;
 }
 
-.be-ra-container-secondary:hover input ~ .be-ra-checkmark-secondary {
+.be-ra-container-secondary:hover input ~ .be-ra-checkmark {
   background-color: #ccc;
 }
 
-.be-ra-container-secondary input:checked ~ .be-ra-checkmark-secondary {
+.be-ra-container-secondary input:checked ~ .be-ra-checkmark {
   background-color: #6c757d;
 }
 
-.be-ra-checkmark-secondary:after {
+.be-ra-checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.be-ra-container-secondary input:checked ~ .be-ra-checkmark-secondary:after {
+.be-ra-container-secondary input:checked ~ .be-ra-checkmark:after {
   display: block;
 }
 
-.be-ra-container-secondary .be-ra-checkmark-secondary:after {
+.be-ra-container-secondary .be-ra-checkmark:after {
   top: 7px;
   left: 7px;
   width: 6px;
@@ -761,6 +761,181 @@
 
 .blockDis {
   display: block;
+}
+
+.switch {
+  font-size: 0.8rem;
+  position: relative;
+}
+.switch input {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  background: none;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+  padding: 0;
+}
+.switch input + label {
+  position: relative;
+  min-width: calc(calc(2.375rem * .6) * 2);
+  border-radius: calc(2.375rem * .6);
+  height: calc(2.375rem * .6);
+  line-height: calc(2.375rem * .6);
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  vertical-align: middle;
+  text-indent: calc(calc(calc(2.375rem * .6) * 2) + .5rem);
+}
+.switch input + label::before,
+.switch input + label::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(calc(2.375rem * .6) * 2);
+  bottom: 0;
+  display: block;
+}
+.switch input + label::before {
+  right: 0;
+  background-color: #dee2e6;
+  border-radius: calc(2.375rem * .6);
+  transition: 0.2s all;
+}
+.switch input + label::after {
+  top: 2px;
+  left: 2px;
+  width: calc(calc(2.375rem * .6) - calc(2px * 2));
+  height: calc(calc(2.375rem * .6) - calc(2px * 2));
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.2s all;
+}
+.switch input:checked + label::before {
+  background-color: #007bff;
+}
+.switch input:checked + label::after {
+  margin-left: calc(2.375rem * .6);
+}
+.switch input:focus + label::before {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.switch input:disabled + label {
+  color: #868e96;
+  cursor: not-allowed;
+}
+.switch input:disabled + label::before {
+  background-color: #e9ecef;
+}
+.switch.switch-sm {
+  font-size: 0.7rem;
+}
+.switch.switch-sm input + label {
+  min-width: calc(calc(1.9375rem * .6) * 2);
+  height: calc(1.9375rem * .6);
+  line-height: calc(1.9375rem * .6);
+  text-indent: calc(calc(calc(1.9375rem * .6) * 2) + .5rem);
+}
+.switch.switch-sm input + label::before {
+  width: calc(calc(1.9375rem * .6) * 2);
+}
+.switch.switch-sm input + label::after {
+  width: calc(calc(1.9375rem * .6) - calc(2px * 2));
+  height: calc(calc(1.9375rem * .6) - calc(2px * 2));
+}
+.switch.switch-sm input:checked + label::after {
+  margin-left: calc(1.9375rem * .6);
+}
+.switch.switch-lg {
+  font-size: 1rem;
+}
+.switch.switch-lg input + label {
+  min-width: calc(calc(3rem * .6) * 2);
+  height: calc(3rem * .6);
+  line-height: calc(3rem * .6);
+  text-indent: calc(calc(calc(3rem * .6) * 2) + .5rem);
+}
+.switch.switch-lg input + label::before {
+  width: calc(calc(3rem * .6) * 2);
+}
+.switch.switch-lg input + label::after {
+  width: calc(calc(3rem * .6) - calc(2px * 2));
+  height: calc(calc(3rem * .6) - calc(2px * 2));
+}
+.switch.switch-lg input:checked + label::after {
+  margin-left: calc(3rem * .6);
+}
+.switch + .switch {
+  margin-left: 1rem;
+}
+
+.callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+.callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.callout p:last-child {
+  margin-bottom: 0;
+}
+.callout code {
+  border-radius: 3px;
+}
+.callout + .bs-callout {
+  margin-top: -5px;
+}
+
+.callout-primary {
+  border-left-color: #007bff;
+}
+.callout-primary h4 {
+  color: #007bff;
+}
+
+.callout-danger {
+  border-left-color: #dc3545;
+}
+.callout-danger h4 {
+  color: #dc3545;
+}
+
+.callout-warning {
+  border-left-color: #ffc107;
+}
+.callout-warning h4 {
+  color: #ffc107;
+}
+
+.callout-info {
+  border-left-color: #17a2b8;
+}
+.callout-info h4 {
+  color: #17a2b8;
+}
+
+.callout-success {
+  border-left-color: #28a745;
+}
+.callout-success h4 {
+  color: #28a745;
+}
+
+.callout-secondary {
+  border-left-color: #6c757d;
+}
+.callout-secondary h4 {
+  color: #6c757d;
 }
 
 /*# sourceMappingURL=bootstrap-extended.css.map */
