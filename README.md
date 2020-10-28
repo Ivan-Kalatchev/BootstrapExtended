@@ -2,7 +2,7 @@
 
 Feel tiered of missing components in Bootstrap? This is the right place!
 
-### Release 1.0 BETA is here!
+### Release 1.0.0 is here!
 
 ## Description
 
