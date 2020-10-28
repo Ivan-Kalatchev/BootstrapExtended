@@ -179,7 +179,7 @@
 .select-selected:after {
   position: absolute;
   content: "";
-  top: 14px;
+  top: 16px;
   right: 10px;
   width: 0;
   height: 0;
@@ -188,16 +188,13 @@
 }
 
 .select-selected.select-arrow-active {
-  border-style: solid solid none solid;
-  border-radius: 0.3rem 0.2rem 0 0;
-  border-width: 0.15rem;
-  border-color: rgba(0, 123, 255, 0.3);
-  padding: 7px 15px;
+  border-radius: 0.5rem 0.5rem 0 0;
+  border-color: white;
 }
 
 .select-selected.select-arrow-active:after {
   border-color: transparent transparent black transparent;
-  top: 7px;
+  top: 10px;
 }
 
 .select-items div, .select-selected {
@@ -215,10 +212,7 @@
   right: 0;
   z-index: 99;
   border-radius: 0 0 0.5rem 0.5rem;
-  border-style: none solid solid solid;
-  border-radius: 0 0 0.3rem 0.2rem;
-  border-width: 0.15rem;
-  border-color: rgba(0, 123, 255, 0.3);
+  border-style: none;
 }
 
 .select-hide {
@@ -446,16 +440,6 @@
   transform: translate(-25%, 0);
 }
 
-/*!
- * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-body {
-  overflow-x: hidden;
-}
-
-/* Toggle Styles */
 #wrapper {
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
@@ -517,6 +501,9 @@ body {
   display: block;
   text-decoration: none;
   color: #000000;
+  border-style: solid none none none;
+  border-width: 0.01rem;
+  border-color: rgba(108, 117, 125, 0.2);
 }
 
 .sidebar-nav li a:hover {
@@ -545,6 +532,15 @@ body {
   background: none;
 }
 
+.sidebar-nav div.sub li a {
+  text-indent: 40px;
+}
+
+.sidebar-nav li a.active {
+  background-color: rgba(128, 128, 128, 0.3);
+  color: #000000;
+}
+
 @media (min-width: 768px) {
   #wrapper {
     padding-left: 250px;
@@ -571,6 +567,53 @@ body {
     position: relative;
     margin-right: 0;
   }
+}
+.active-state {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.active-state-primary {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.active-state-danger {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.active-state-warning {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+.active-state-info {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.25);
+}
+
+.active-state-success {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.active-state-secondary {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25);
+}
+
+.active-state-select {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 5px 0px 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 /*# sourceMappingURL=bootstrap-extended.css.map */
