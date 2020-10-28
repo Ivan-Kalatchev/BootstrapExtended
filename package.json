@@ -1,0 +1,53 @@
+{
+  "name": "bootstrap-extended",
+  "version": "1.0.0",
+  "description": "Bootstrap with super powers!",
+  "directories": {
+    "lib": "lib",
+    "prod": "prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivan-Kalatchev/BootstrapExtended.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "ui",
+    "checkbox",
+    "select",
+    "bootstrap-extended",
+    "sidebar",
+    "side-bar",
+    "bootstrap-sidebar",
+    "bootstrap-select",
+    "switch",
+    "bootstrap-switch",
+    "bootstrap-checkbox",
+    "radio",
+    "bootstrap-radio",
+    "drawer",
+    "bootstrap-drawer",
+    "callout",
+    "bootstrap-library",
+    "bootstrap-extention",
+    "bootstrap-theme",
+    "theme",
+    "sass",
+    "css",
+    "sass-library",
+    "library",
+    "css-library",
+    "super",
+    "piowers",
+    "extention",
+    "bootstrap-callout",
+    "card",
+    "bootstrap-card"
+  ],
+  "author": "Ivan-Kalatchev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ivan-Kalatchev/BootstrapExtended/issues"
+  },
+  "homepage": "https://github.com/Ivan-Kalatchev/BootstrapExtended"
+}
