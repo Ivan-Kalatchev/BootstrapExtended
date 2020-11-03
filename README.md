@@ -12,41 +12,41 @@ It's an extension! **BootstrapExtended** is a library that contains certain HTML
 
   ✔️ Select - Ready
 
-  ![Combobox-expanded](./screenshots/Select-Expanded.png?raw=true)
+  ![Combobox-expanded](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Select-Expanded.png?raw=true)
   
   ✔️ Checkboxes - Ready
   
-  ![Checkboxes](./screenshots/Checkboxes-NotChecked.png?raw=true)
+  ![Checkboxes](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Checkboxes.png?raw=true)
 
   ✔️ Radio buttons - Ready
 
-  ![Radio](./screenshots/Radio.png?raw=true)
+  ![Radio](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Radio.png?raw=true)
 
-  ![Radio2](./screenshots/Radio-NoText.png?raw=true)
+  ![Radio2](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Radio-NoText.png?raw=true)
 
-  ![Radio3](./screenshots/Radio-Block.png?raw=true)
+  ![Radio3](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Radio-Block.png?raw=true)
 
   ✔️ Switch - Ready
 
-  ![Switch-On](./screenshots/Switch-On.png?raw=true)
+  ![Switch-On](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Switch-On.png?raw=true)
 
-  ![Switch-Off](./screenshots/Switch-Off.png?raw=true)
+  ![Switch-Off](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Switch-Off.png?raw=true)
 
   ✔️ Callouts - Ready
 
-  ![Callouts](./screenshots/Callouts.png?raw=true)
+  ![Callouts](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Callouts.png?raw=true)
 
   ✔️ SideBar - Ready
 
-  ![SideBar-Expanded](./screenshots/Sidebar-Expanded.png?raw=true)
+  ![SideBar-Expanded](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Sidebar-Expanded.png?raw=true)
 
   
-  ![SideBar-Collapsed](./screenshots/Sidebar-Collapsed.png?raw=true)
+  ![SideBar-Collapsed](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Sidebar-Collapsed.png?raw=true)
 
   ✔️ Drawer - Ready
 
-  ![Drawer-Right](./screenshots/Drawer-Right.png?raw=true)
-  ![Drawer-Left](./screenshots/Drawer-Left.png?raw=true)
+  ![Drawer-Right](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Drawer-Right.png?raw=true)
+  ![Drawer-Left](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Drawer-Left.png?raw=true)
   
 ## Development
 
