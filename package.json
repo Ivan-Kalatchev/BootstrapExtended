@@ -1,8 +1,7 @@
 {
-  "name": "@ivan-kalatchev/bootstrap-extended",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "name": "bootstrap-extended",
+  "name_c": "@ivan-kalatchev/bootstrap-extended",
+  
   "version": "1.0.2",
   "description": "Bootstrap with super powers!",
   "directories": {

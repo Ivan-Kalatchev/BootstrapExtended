@@ -1,0 +1,72 @@
+
+$blue: #3671e7;
+$indigo: #6a00ff;
+$purple: #613d7c;
+$pink: #f472d0;
+$red: #e51400;
+$orange: #fa6800;
+$yellow: #e3c800;
+$green: #60a917;
+$teal: #00aba9;
+$cyan: #1ba1e2;
+$white: #fff;
+$gray: #868e96;
+$gray-dark: #373a3c;
+$primary: #0050ef;
+$secondary: #647687;
+$success: #60a917;
+$info: #00aba9;
+$warning: #e3c800;
+$danger: #e51400;
+$light: #f8f9fa;
+$combo-border: #000000;
+$dark: #373a3c;
+
+$navbar-bg: #fafafa;
+$navbar-fore: #000000;
+
+$navbar-hover: #b1b1b1;
+$navbar-hover-fore: #000000;
+
+//Switch
+$font-size-base: 1rem;
+$font-size-lg: ($font-size-base * 1.25);
+$font-size-sm: ($font-size-base * .875);
+$input-height: 2rem;
+$input-height-sm: 1.9375rem;
+$input-height-lg: 3rem;
+$input-btn-focus-width: .2rem;
+$custom-control-indicator-bg: #dee2e6;
+$custom-control-indicator-disabled-bg: #e9ecef;
+$custom-control-description-disabled-color: #868e96;
+$white: white;
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger,
+  "warning": $warning,
+  "info": $info,
+  "success": $success,
+  "secondary": $secondary
+);
+$switch-height: calc(#{$input-height} * .8) !default;
+$switch-height-sm: calc(#{$input-height-sm} * .8) !default;
+$switch-height-lg: calc(#{$input-height-lg} * .8) !default;
+$switch-border-radius: $switch-height !default;
+$switch-bg: $custom-control-indicator-bg !default;
+$switch-checked-bg: map-get($theme-colors, 'primary') !default;
+$switch-disabled-bg: $custom-control-indicator-disabled-bg !default;
+$switch-disabled-color: $custom-control-description-disabled-color !default;
+$switch-thumb-bg: $white !default;
+$switch-thumb-border-radius: 50% !default;
+$switch-thumb-padding: 2px !default;
+$switch-focus-box-shadow: 0 0 0 $input-btn-focus-width rgba(map-get($theme-colors, 'primary'), .25);
+$switch-transition: .2s all !default;
+
+$colors:
+  "primary" $primary,
+  "danger" $danger,
+  "warning" $warning,
+  "info" $info,
+  "success" $success,
+  "secondary" $secondary
+;

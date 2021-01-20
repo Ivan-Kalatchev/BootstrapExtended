@@ -59,27 +59,27 @@
 }
 
 .be-ch-countainer input:checked ~ .be-ch-checkmark-primary {
-  background-color: #007bff;
+  background-color: #0050ef;
 }
 
 .be-ch-countainer input:checked ~ .be-ch-checkmark-danger {
-  background-color: #dc3545;
+  background-color: #e51400;
 }
 
 .be-ch-countainer input:checked ~ .be-ch-checkmark-warning {
-  background-color: #ffc107;
+  background-color: #e3c800;
 }
 
 .be-ch-countainer input:checked ~ .be-ch-checkmark-info {
-  background-color: #17a2b8;
+  background-color: #00aba9;
 }
 
 .be-ch-countainer input:checked ~ .be-ch-checkmark-success {
-  background-color: #28a745;
+  background-color: #60a917;
 }
 
 .be-ch-countainer input:checked ~ .be-ch-checkmark-secondary {
-  background-color: #6c757d;
+  background-color: #647687;
 }
 
 .be-ra-container {
@@ -134,27 +134,27 @@
 }
 
 .be-ra-container input:checked ~ .be-ra-checkmark-primary {
-  background-color: #007bff;
+  background-color: #0050ef;
 }
 
 .be-ra-container input:checked ~ .be-ra-checkmark-danger {
-  background-color: #dc3545;
+  background-color: #e51400;
 }
 
 .be-ra-container input:checked ~ .be-ra-checkmark-warning {
-  background-color: #ffc107;
+  background-color: #e3c800;
 }
 
 .be-ra-container input:checked ~ .be-ra-checkmark-info {
-  background-color: #17a2b8;
+  background-color: #00aba9;
 }
 
 .be-ra-container input:checked ~ .be-ra-checkmark-success {
-  background-color: #28a745;
+  background-color: #60a917;
 }
 
 .be-ra-container input:checked ~ .be-ra-checkmark-secondary {
-  background-color: #6c757d;
+  background-color: #647687;
 }
 
 .be-select {
@@ -282,14 +282,14 @@
   transition: 0.2s all;
 }
 .switch input:checked + label::before {
-  background-color: #007bff;
+  background-color: #0050ef;
 }
 .switch input:checked + label::after {
   margin-left: calc(2rem * .8);
 }
 .switch input:focus + label::before {
   outline: none;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 80, 239, 0.25);
 }
 .switch input:disabled + label {
   color: #868e96;
@@ -362,45 +362,45 @@
 }
 
 .callout-primary {
-  border-left-color: #007bff;
+  border-left-color: #0050ef;
 }
 .callout-primary h4 {
-  color: #007bff;
+  color: #0050ef;
 }
 
 .callout-danger {
-  border-left-color: #dc3545;
+  border-left-color: #e51400;
 }
 .callout-danger h4 {
-  color: #dc3545;
+  color: #e51400;
 }
 
 .callout-warning {
-  border-left-color: #ffc107;
+  border-left-color: #e3c800;
 }
 .callout-warning h4 {
-  color: #ffc107;
+  color: #e3c800;
 }
 
 .callout-info {
-  border-left-color: #17a2b8;
+  border-left-color: #00aba9;
 }
 .callout-info h4 {
-  color: #17a2b8;
+  color: #00aba9;
 }
 
 .callout-success {
-  border-left-color: #28a745;
+  border-left-color: #60a917;
 }
 .callout-success h4 {
-  color: #28a745;
+  color: #60a917;
 }
 
 .callout-secondary {
-  border-left-color: #6c757d;
+  border-left-color: #647687;
 }
 .callout-secondary h4 {
-  color: #6c757d;
+  color: #647687;
 }
 
 .modal.drawer {
@@ -503,7 +503,7 @@
   color: #000000;
   border-style: solid none none none;
   border-width: 0.01rem;
-  border-color: rgba(108, 117, 125, 0.2);
+  border-color: rgba(134, 142, 150, 0.2);
 }
 
 .sidebar-nav li a:hover {
@@ -570,50 +570,50 @@
 }
 .active-state {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 80, 239, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 80, 239, 0.25);
 }
 
 .active-state-primary {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 80, 239, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 80, 239, 0.25);
 }
 
 .active-state-danger {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(229, 20, 0, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(229, 20, 0, 0.25);
 }
 
 .active-state-warning {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(227, 200, 0, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(227, 200, 0, 0.25);
 }
 
 .active-state-info {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 171, 169, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 171, 169, 0.25);
 }
 
 .active-state-success {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(96, 169, 23, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(96, 169, 23, 0.25);
 }
 
 .active-state-secondary {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(100, 118, 135, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(100, 118, 135, 0.25);
 }
 
 .active-state-select {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-  box-shadow: 0 5px 0px 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 80, 239, 0.25);
+  box-shadow: 0 5px 0px 0.2rem rgba(0, 80, 239, 0.25);
 }
 
 .disabled-ch-mark {

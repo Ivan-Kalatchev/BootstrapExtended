@@ -4,9 +4,21 @@ Feel tiered of missing components in Bootstrap? This is the right place!
 
 ### Release 1.0.0 is here!
 
+## What's new
+
+  ✔️ AdminCards
+  
+  ✔️ SideBar changes
+
+  ✔️ Boostrap theme - https://github.com/Ivan-Kalatchev/BootstrapExtended.Theme
+
+## Bootstrap Theme
+
+**BootstrapExtended** now has it's own bootstrap theme. It has a metro look and feel and it's based on Bootwatch's Cosmo. https://github.com/Ivan-Kalatchev/BootstrapExtended.Theme
+
 ## Description
 
-It's an extension! **BootstrapExtended** is a library that contains certain HTML elements, styled in the bootstrap theme, that are currently not supported in the full Bootstrap library, like **check-boxes**, **radio buttons**, **selects** and more. It's development purpose is to help developers work with Bootstrap with **as little** dependencies as possible.
+**BootstrapExtended** is a library that contains certain HTML elements, styled in the bootstrap theme, that are currently not supported in the full Bootstrap library, like **check-boxes**, **radio buttons**, **selects** and more. It's development purpose is to help developers work with Bootstrap with **as little** dependencies as possible.
 
 ## Quick overview (for full project progress description go into the the projects tab)
 
@@ -32,6 +44,10 @@ It's an extension! **BootstrapExtended** is a library that contains certain HTML
 
   ![Switch-Off](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Switch-Off.png?raw=true)
 
+  ✔️ AdminCards - Ready
+
+  ![Switch-On](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/AdminCards.png?raw=true)
+
   ✔️ Callouts - Ready
 
   ![Callouts](https://raw.githubusercontent.com/Ivan-Kalatchev/BootstrapExtended/main/screenshots/Callouts.png?raw=true)
@@ -51,3 +67,7 @@ It's an extension! **BootstrapExtended** is a library that contains certain HTML
 ## Development
 
 BootstrapExtended is made with sass and a theme file, witch means you can always change something and just recompile the scss file. Support for bootstrap themes from Bootswatch will be available in release 2.0.
+
+## Missing documentation
+
+If there appears to be new components and they have no documentation, you can always find every one of them in "showcase/testing.html".
