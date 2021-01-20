@@ -1,7 +1,6 @@
 {
   "name": "bootstrap-extended",
   "name_c": "@ivan-kalatchev/bootstrap-extended",
-  
   "version": "1.0.2",
   "description": "Bootstrap with super powers!",
   "directories": {
