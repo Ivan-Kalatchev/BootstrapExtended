@@ -66,7 +66,7 @@ Feel tiered of missing components in Bootstrap? This is the right place!
   
 ## Development
 
-BootstrapExtended is made with sass and a theme file, witch means you can always change something and just recompile the scss file. Support for bootstrap themes from Bootswatch will be available in release 2.0.
+BootstrapExtended is made with sass and a theme file, which means you can always change something and just recompile the scss file. Support for bootstrap themes from Bootswatch will be available in release 2.0.
 
 ## Missing documentation
 
